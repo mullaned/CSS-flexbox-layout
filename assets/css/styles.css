@@ -42,6 +42,10 @@ section {
 	padding: 100px 80px;
 }
 
+section:not(.hero):nth-child(even){
+    background-color: #f5f5f5;
+}
+
 .grid {
     width: 100%;
     display: flex;
@@ -173,10 +177,30 @@ header nav li {
 }
 
 
+/* Services Section */
+.services .grid li {
+    padding: 50px;
+    flex-basis: 50%;
+    text-align: center;
+}
 
+.services .grid li i {
+    color: #8c9eff;
+}
 
+.services .grid li h4 {
+    font-size: 30px;
+    margin: 25px 0;
+}
 
+/* Testimonials section */
 
+.testimonials .quote {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    
+}
 
 
 
